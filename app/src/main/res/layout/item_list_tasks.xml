@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="8dp"
+    android:backgroundTint="@color/lists_blue"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="12dp">
+
+        <TextView
+            android:id="@+id/name_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/inbox"
+            android:textColor="@color/lists_black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="4dp"
+            android:id="@+id/number_of_tasks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/one_task"
+            android:textSize="16sp"
+            android:textColor="@color/lists_gray" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

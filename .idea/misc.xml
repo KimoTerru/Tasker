@@ -3,7 +3,28 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/layout/activity_main.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/add.xml" value="0.20555555555555555" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/alarm.xml" value="0.16962025316455695" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/calendar.xml" value="0.16962025316455695" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/checked.xml" value="0.13875" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/combined_shape.xml" value="0.16962025316455695" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/custom_checkbox.xml" value="0.13875" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/ic_alarm.xml" value="0.1095" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/ic_launcher_background.xml" value="0.16962025316455695" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/ic_more.xml" value="0.1095" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/lists.xml" value="0.16962025316455695" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/marked.xml" value="0.16962025316455695" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/more.xml" value="0.20555555555555555" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/round.xml" value="0.13875" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/round_checkbox.xml" value="0.16962025316455695" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/round_color.xml" value="0.16962025316455695" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/task.xml" value="0.16962025316455695" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/trash.xml" value="0.16962025316455695" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/unmarked.xml" value="0.16962025316455695" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/layout/item_list_task.xml" value="0.25" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/layout/item_list_tasks.xml" value="0.5" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/layout/item_task.xml" value="0.5" />
       </map>
     </option>
   </component>

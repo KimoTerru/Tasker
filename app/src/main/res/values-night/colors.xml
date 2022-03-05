@@ -8,13 +8,13 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="lists_black">#252A31</color>
+    <color name="lists_black">#FFFFFFFF</color>
     <color name="lists_blue">#006CFF</color>
     <color name="lists_purple">#B678FF</color>
     <color name="lists_yellow">#FFE761</color>
     <color name="lists_red">#F45E6D</color>
     <color name="lists_green">#61DEA4</color>
-    <color name="lists_gray">@android:color/darker_gray</color>
+    <color name="lists_gray">#EBEFF5</color>
 
     <color name="shadow_line">#19000000</color>
 
