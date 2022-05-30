@@ -1,4 +1,4 @@
-package it.kimoterru.tasker
+package it.kimoterru.tasker.presentation
 
 import android.os.Bundle
 import android.view.Window
@@ -7,7 +7,9 @@ import androidx.core.view.WindowCompat
 import by.kirich1409.viewbindingdelegate.CreateMethod
 import by.kirich1409.viewbindingdelegate.viewBinding
 import dagger.hilt.android.AndroidEntryPoint
+import it.kimoterru.tasker.R
 import it.kimoterru.tasker.databinding.ActivityMainBinding
+import it.kimoterru.tasker.presentation.util.FragmentNavigation
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
@@ -18,6 +20,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
         setupFullScreenActivity(window)
+        if (savedInstanceState == null) {
+            val navigation by lazy {
+                FragmentNavigation(
+                    R.id.fragment_container_view,
+                    supportFragmentManager
+                )
+            }
+            navigation.toHome()
+        }
     }
 
     private fun setupFullScreenActivity(window: Window) {

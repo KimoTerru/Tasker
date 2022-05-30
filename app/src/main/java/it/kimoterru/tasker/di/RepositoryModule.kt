@@ -1,4 +1,4 @@
-package it.kimoterru.tasker.di.modules
+package it.kimoterru.tasker.di
 
 import dagger.Binds
 import dagger.Module

@@ -1,4 +1,4 @@
-package it.kimoterru.tasker.data
+package it.kimoterru.tasker
 
 class Constants {
     companion object {
