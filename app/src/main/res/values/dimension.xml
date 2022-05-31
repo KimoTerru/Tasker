@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="vertical_margin_dt">11dp</dimen>
+    <dimen name="text_size_dt">18sp</dimen>
+
+    <dimen name="vertical_margin_settings_dt">18dp</dimen>
+</resources>

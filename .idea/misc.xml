@@ -6,12 +6,20 @@
         <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/add.xml" value="0.20555555555555555" />
         <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/alarm.xml" value="0.16962025316455695" />
         <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/calendar.xml" value="0.16962025316455695" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/calendar_item.xml" value="0.103" />
         <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/checked.xml" value="0.13875" />
         <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/combined_shape.xml" value="0.16962025316455695" />
         <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/custom_checkbox.xml" value="0.13875" />
         <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/ic_alarm.xml" value="0.1095" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/ic_calendar.xml" value="0.103" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/ic_edit.xml" value="0.103" />
         <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/ic_launcher_background.xml" value="0.16962025316455695" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/ic_lists.xml" value="0.103" />
         <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/ic_more.xml" value="0.1095" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/ic_plus.xml" value="0.103" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/ic_task.xml" value="0.103" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/ic_trash.xml" value="0.103" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/list_color.xml" value="0.103" />
         <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/lists.xml" value="0.16962025316455695" />
         <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/marked.xml" value="0.16962025316455695" />
         <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/more.xml" value="0.20555555555555555" />
@@ -23,10 +31,11 @@
         <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/drawable/unmarked.xml" value="0.16962025316455695" />
         <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/layout/fragment_detail_task.xml" value="0.1" />
-        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/layout/fragment_home.xml" value="0.14814814814814814" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/layout/fragment_deteil_task.xml" value="0.33" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/layout/fragment_home.xml" value="0.67" />
         <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/layout/item_list_task.xml" value="0.25" />
-        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/layout/item_list_tasks.xml" value="0.5" />
-        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/layout/item_task.xml" value="0.5" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/layout/item_list_tasks.xml" value="0.2962962962962963" />
+        <entry key="..\:/Users/KimoTerru/AndroidStudioProjects/Tasker/app/src/main/res/layout/item_task.xml" value="0.2" />
       </map>
     </option>
   </component>

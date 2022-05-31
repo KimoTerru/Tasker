@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="13.5dp"
         android:contentDescription="@string/additional_functions"
-        android:src="@drawable/more"
+        android:src="@drawable/ic_more"
         app:layout_constraintBottom_toBottomOf="@+id/main_text_today"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/main_text_today" />
@@ -91,7 +91,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="44dp"
         android:contentDescription="@string/add_new_task"
-        android:src="@drawable/combined_shape"
+        android:src="@drawable/ic_plus"
         app:backgroundTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

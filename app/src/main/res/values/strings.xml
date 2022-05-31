@@ -11,4 +11,8 @@
     <string name="seven_pm">7:00 pm</string>
     <string name="calendar_image">Calendar image</string>
     <string name="alarm_image">Alarm image</string>
+
+    <string name="cancel_dt">Cancel</string>
+    <string name="done_dt">Done</string>
+    <string name="query_task_dt">What do you want to do?</string>
 </resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/background_top_fun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/vertical_margin_dt"
+            android:layout_marginStart="16dp"
+            android:text="@string/cancel_dt"
+            android:textColor="@color/lists_blue"
+            android:textSize="@dimen/text_size_dt" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/vertical_margin_dt"
+            android:layout_marginEnd="16dp"
+            android:text="@string/done_dt"
+            android:textColor="@color/lists_blue"
+            android:textSize="@dimen/text_size_dt" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/status_done_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="16dp"
+        android:button="@drawable/round_checkbox"
+        android:buttonTint="@color/lists_blue"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        app:layout_constraintLeft_toLeftOf="@id/background_top_fun"
+        app:layout_constraintTop_toBottomOf="@id/background_top_fun" />
+
+    <EditText
+        android:id="@+id/text_task_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="44dp"
+        android:background="#00FFFFFF"
+        android:gravity="start"
+        android:hint="@string/query_task_dt"
+        android:paddingTop="17dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/view"
+        app:layout_constraintLeft_toRightOf="@id/status_done_view"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/background_top_fun" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#252A31"
+        app:layout_constraintBottom_toTopOf="@id/background_bottom_fun"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/background_bottom_fun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/vertical_margin_settings_dt"
+            android:layout_marginStart="14dp"
+            android:src="@drawable/ic_calendar" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/vertical_margin_settings_dt"
+            android:layout_marginStart="23dp"
+            android:src="@drawable/ic_alarm" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/inbox"
+            android:textColor="@color/lists_black"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginVertical="@dimen/vertical_margin_settings_dt"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/list_color" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

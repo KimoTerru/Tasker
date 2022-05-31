@@ -10,6 +10,7 @@
         android:layout_width="24dp"
         android:layout_height="24dp"
         android:layout_margin="16dp"
+        android:buttonTint="@color/lists_blue"
         android:button="@drawable/round_checkbox"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toLeftOf="@id/task"
@@ -35,7 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="@string/calendar_image"
-        android:src="@drawable/calendar"
+        android:src="@drawable/calendar_item"
         app:layout_constraintBottom_toTopOf="@+id/shadow_layout_end"
         app:layout_constraintStart_toStartOf="@+id/task"
         app:layout_constraintTop_toBottomOf="@id/task" />
@@ -56,7 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
         android:contentDescription="@string/alarm_image"
-        android:src="@drawable/alarm"
+        android:src="@drawable/alarm_item"
         app:layout_constraintBottom_toBottomOf="@+id/calendar"
         app:layout_constraintStart_toEndOf="@+id/calendar"
         app:layout_constraintTop_toTopOf="@+id/calendar" />
